@@ -9,9 +9,9 @@ On success, opens the main window. On failure, displays an error message.
 
 Default Credentials:
 
-Username: admin
+Username: jo
 
-Password: admin123
+Password: jops73
 
 📖 Books Management
 View all books in a DataGridView: BookID, Title, Author, Year, Available Copies.
@@ -46,9 +46,6 @@ Increase the book’s AvailableCopies.
 
 Remove or mark the issued record as returned.
 
-📊 Reports (Bonus)
-Overdue Books: Generate a report for books overdue (DueDate < today).
-
 🛠️ Technical Details
 Technology	Description
 Language	C#
@@ -81,9 +78,7 @@ Edit
 🚀 Setup Instructions
 1️⃣ Clone the Repository
 bash
-Copy
-Edit
-git clone https://github.com/your-username/mylibrary.git
+
 2️⃣ Set Up the Database
 Use the SQL script provided at Database/create_library_db.sql to create and seed the database.
 
@@ -94,4 +89,4 @@ Open MyLibrary.sln in Visual Studio.
 
 Build and run the project.
 
-Use the default credentials (admin / admin123) to log in.
+Use the default credentials (jo / jops73) to log in.
